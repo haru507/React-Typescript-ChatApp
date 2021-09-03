@@ -8,7 +8,7 @@ const useStyles = makeStyles( (theme: Theme) => {
             backgroundColor: theme.palette.primary.main,
             color:  '#000',
             fontSize: 16,
-            height: 48,
+            height: 30,
             marginBottom: 16,
             width: 256,
             "&:hover": {
@@ -19,7 +19,7 @@ const useStyles = makeStyles( (theme: Theme) => {
 })
 
 interface Props {
-    className: string,
+    className?: string,
     variant?: string,
     onClick: () => void,
     label: string
@@ -27,6 +27,7 @@ interface Props {
 
 const PrimaryButton: React.FC<Props> = (props) => {
     const classes =  useStyles();
+    const buttonStyle = props.className
 
     return(
         <Button

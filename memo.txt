@@ -3,3 +3,10 @@ type or interface　で明示的に型宣言をしてやる
 
 ファンクションコンポーネントは、「React.FC<>」という型になる
 propsの型をジェネリクスで指定できる。
+
+
+やることリスト
+・useContextとuseReducerのマスター
+・React × Typescriptの記事を探す
+・Firebase・FireStore（users, messages）処理を作っていく。
+・ユーザ検索、チャットユーザ一覧画面

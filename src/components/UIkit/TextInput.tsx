@@ -24,6 +24,7 @@ type Props =  {
     rows: number,
     value: string | number,
     type: string,
+    autoComplete?: string,
     onChange: (e: any) => void
 }
 
@@ -40,6 +41,7 @@ const TextInput: React.FC<Props> = (props) =>  {
             required={props.required}
             rows={props.rows}
             value={props.value}
+            type={props.type}
             onChange={props.onChange}
         />
     )

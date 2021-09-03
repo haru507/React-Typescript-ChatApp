@@ -1,0 +1,25 @@
+.sideBySide{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.positionCorrection{
+    position: relative;
+    top: 80px;
+}
+
+/*********** Module Spacer ***********/
+.module-spacer--extra-extra-small {
+    height: 12px
+}
+.module-spacer--extra-small {
+    height: 12px
+}
+.module-spacer--small {
+    height: 20px
+}
+.module-spacer--medium {
+    height: 32px
+}
